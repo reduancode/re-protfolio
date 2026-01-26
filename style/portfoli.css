@@ -48,8 +48,46 @@ nav .menu a {
     font-weight: bold;
     color: #FFF8F3;
     cursor: pointer;
+}
+
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-heading p{
+        font-size: 18px;
+        color: #757575;
+        line-height: 30px;
+        margin-bottom: 30px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* main style */
 
 
@@ -115,7 +153,33 @@ nav {
 
 }
 
-/* ul{
+#about{
+    padding-top: 130px;
+}
+
+#about .about-contaner{
+    width: 70%;
+    max-width: 1140px;
+    margin: 0px auto;
+    text-align: center;
+    background-color:#FFF8F3 ;
+    padding: 131px 156px;
+}
+
+#about .about-contaner .about-info {
     display: flex;
-    justify-content: space-between;
-} */
+    justify-content: space-around
+
+}
+
+
+.about-info .info-card p{
+     font-size: 18px;
+        color: #757575;
+        line-height: 30px;
+        
+}
+
+.about-info .info-card h4{
+font-size: 18px;
+}
